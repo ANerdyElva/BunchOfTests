@@ -1,5 +1,5 @@
 import sys
-import Image
+from PIL import Image
 import math
 
 im = Image.open( sys.argv[1] )
